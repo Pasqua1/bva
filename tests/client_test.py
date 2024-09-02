@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch, MagicMock
 
-from lib.bova_client import BovaClient
+from bva.bova_client import BovaClient
 
 @pytest.fixture
 def bova_client():
